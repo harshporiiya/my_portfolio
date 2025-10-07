@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Github, ExternalLink, Mic, ScanFace } from "lucide-react";
+import { Github, ExternalLink, Mic, ScanFace, createIcons, icons } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import leoAssistantImage from "@/assets/leo-assistant.jpg";
 import faceAttendanceImage from "@/assets/face-attendance.jpg";
@@ -53,6 +53,20 @@ const Projects = () => {
       ],
       githubUrl: "https://github.com/harshporiiya",
       image: faceAttendanceImage
+    },
+    {
+      title: "AgriYug-ChatBot",
+      description: "This is a ChatBot created to help the farmer about the their personal problem in their own local language using voice or text.",
+      icon: Mic,
+      techStack: ["Python", "NPL", "Gemini-api"],
+      features: [
+        "Natural language understanding and processing",
+        "Voice recognition and speech synthesis",
+        "Context-aware conversation handling",
+        "Multi-language support capabilities"
+      ],
+      githubUrl: "https://github.com/harshporiiya",
+      image: leoAssistantImage
     },
   ];
 
