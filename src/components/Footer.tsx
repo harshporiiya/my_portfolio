@@ -82,7 +82,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-border text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} Harsh Poriya. Designed & Built with passion
+            © {new Date().getFullYear()} Harsh Poriya.
           </p>
         </div>
       </div>
