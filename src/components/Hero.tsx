@@ -31,17 +31,17 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
       </div>
 
-      <div className="container mx-auto px-6 relative z-16">
+      <div className="container mx-auto px-6 relative z-">
         <div className="flex flex-col items-center text-center space-y-8 animate-fade-in">
           {/* Profile Picture */}
           <div className="relative group">
             <div className="absolute inset-0 bg-primary rounded-full blur-xl animate-glow-pulse" />
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary shadow-2xl">
               <img
-                src={profilePicture}
-                alt="Harsh Poriya"
-                className="w-full h-full object-cover"
-              />
+                  src={profilePicture}
+                  alt="Harsh Poriya"
+                  className="w-full h-full object-cover object-[center_20%]"
+             />
             </div>
           </div>
 
