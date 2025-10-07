@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import aboutImage from "@/assets/about-image.jpg";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,7 +43,7 @@ const About = () => {
               <div className="absolute inset-0 bg-primary/30 rounded-2xl blur-2xl group-hover:blur-3xl transition-all" />
               <div className="relative glass-effect rounded-2xl p-8 hover:scale-105 transition-transform">
                 <img
-                  src="https://via.placeholder.com/600x600/0a0e27/00d9ff?text=Harsh+Poriya"
+                  src={aboutImage}
                   alt="About Harsh Poriya"
                   className="w-full rounded-lg"
                 />

@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Github, ExternalLink, Mic, ScanFace } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import leoAssistantImage from "@/assets/leo-assistant.jpg";
+import faceAttendanceImage from "@/assets/face-attendance.jpg";
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,7 +38,7 @@ const Projects = () => {
         "Multi-language support capabilities"
       ],
       githubUrl: "https://github.com/harshporiiya",
-      image: "https://via.placeholder.com/800x600/0a0e27/00d9ff?text=Leo+AI+Assistant"
+      image: leoAssistantImage
     },
     {
       title: "Face Attendance System",
@@ -50,7 +52,7 @@ const Projects = () => {
         "Anti-spoofing security measures"
       ],
       githubUrl: "https://github.com/harshporiiya",
-      image: "https://via.placeholder.com/800x600/0a0e27/0066ff?text=Face+Recognition"
+      image: faceAttendanceImage
     },
   ];
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePicture from "@/assets/profile-picture.jpg";
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -37,7 +38,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-primary rounded-full blur-xl animate-glow-pulse" />
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary shadow-2xl">
               <img
-                src="https://via.placeholder.com/400x400/0a0e27/00d9ff?text=HP"
+                src={profilePicture}
                 alt="Harsh Poriya"
                 className="w-full h-full object-cover"
               />
