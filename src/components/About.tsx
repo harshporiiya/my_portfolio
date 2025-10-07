@@ -76,7 +76,7 @@ const About = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
               <div className="glass-effect rounded-lg p-6 text-center hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-primary mb-2">2+</div>
+                <div className="text-3xl font-bold text-primary mb-2">3+</div>
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div className="glass-effect rounded-lg p-6 text-center hover:scale-105 transition-transform">
